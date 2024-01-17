@@ -112,6 +112,40 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background: url(./images/footer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
 /* Media querry */
 
 @media (max-width:1200px) {
@@ -139,12 +173,13 @@ section{
         top: 99%;
         left: 0;
         right: 0;
+        transition: .2s linear;
         background-color: var(--white);
         border-top: var(--border);
         padding: 2rem;
         clip-path: polygon(0 0 ,100% 0, 100% 0, 0 0);
     }
-    .header .navbar {
+    .header .navbar.active {
         clip-path: polygon(0 0 ,100% 0, 100% 100%, 0 100%);
     }
     .header .navbar a{
