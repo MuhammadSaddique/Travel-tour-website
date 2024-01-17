@@ -63,6 +63,5 @@
         <div class="credit">created by <span>saddique</span> | All rights reserved! </div>
     </section>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="app.js"></script>
 </html>
